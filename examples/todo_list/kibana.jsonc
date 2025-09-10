@@ -1,0 +1,15 @@
+{
+  "type": "plugin",
+  "id": "@kbn/todo-list-plugin",
+  "owner": "@elastic/kibana-core",
+  "description": "A plugin which registers a todo list application.",
+  "plugin": {
+    "id": "todoList",
+    "server": true,
+    "browser": true,
+    "requiredPlugins": ["developerExamples"],
+    "configPath": [
+      "todo_list"
+    ]
+  }
+}
